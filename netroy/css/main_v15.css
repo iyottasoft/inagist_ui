@@ -1,0 +1,198 @@
+@font-face {
+	font-family: 'Delicious Roman';
+	src: url('Delicious-Roman.eot');
+	src: url('Delicious-Roman.otf');
+}
+
+@font-face {
+	font-family: 'Delicious Bold';
+	src: url('Delicious-Bold.eot');
+	src: url('Delicious-Bold.otf');
+}
+
+@font-face {
+	font-family: 'Delicious Heavy';
+	src: url('Delicious-Heavy.eot');
+	src: url('Delicious-Heavy.otf');
+}
+
+
+body{margin:0;padding:0;line-height: 1.5em;background: #ccc;color: #111; font-family: 'Cabin',verdana,arial,sans-serif; font-size: 13px; text-align: left;}
+a, a:visited, a:link {color:#389DE6;text-decoration:none;}
+h2.title{font-size:12px;line-height:16px;background-color: #FFB400; color:#444;margin:-5px -5px 6px -10px;padding:5px 10px 10px 10px; height: 30px;}
+b{font-size: 110%;}
+em{color: red;}
+p{margin-top: 0px; margin-bottom: 8px;}
+
+#maincontainer{width: 940px; /*Width of main container*/margin: 0 auto; /*Center container on page*/}
+
+#topsection{height: 65px; /*Height of top section*/}
+#topsection h1{margin: 0;padding-top: 15px;}
+
+#contentwrapper{float: left;width: 100%;}
+#contentcolumn{margin-left: 200px; /*Set left margin to LeftColumnWidth*/}
+
+#leftcolumn{float: left;width: 200px; /*Width of left column*/margin-left: -940px; /*Set left margin to -(MainContainerWidth)*/}
+
+#footer{clear: left;width: 100%;color: #FFF;text-align: center;padding: 4px 0;}
+
+.innertube{margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/margin-top: 0;}
+
+/*general float and clear properties*/
+.left {float: left;}
+.right {float: right;}
+.clear {clear: both;}
+
+/* Trends Ticker*/
+.trending{float:left;}
+.trending .inner{position:relative;width:590px;height:3em;overflow:hidden; vertical-align: top;}
+.trending ul{position:absolute;top:0;width:9999em; list-style: none outside none;}
+.trending li{float:right;list-style: none outside none;}
+.trending a:link,.trending a:visited{float:left;padding-left:5px;padding-right:20px;color:#666;}
+.trending .atrend{float:left !important; font-size:12px;}
+.trending .tlink{text-transform: uppercase; color: #FFF !important;}
+.trending .clink{text-transform: uppercase;}
+
+/*Logo Tagline */
+.tagline{font-size:18px;}
+
+/*Bullets*/
+div.bullets div.bullet-item {width:280px; padding:30px 20px 30px 0;}
+
+.section_w940 {width:940px;}
+.section_w924 {width:924px;}
+.section_w300 {width:300px;padding:0 8px 0 0; }
+.section_w455 {width:460px;padding:0 10px 0 0px; }
+.margin_r_10 {margin-right:0px; margin-bottom:10px;}
+.margin_r_20 {margin-right:10px; margin-bottom:20px;}
+.channeltitle{color:#FF7A03;font-size:24px;font-weight:normal;padding:10px; text-transform: lowercase; padding-left: 0px; font-family: "Delicious Bold"; }
+.trendtitle{color:#FE7900;font-size:24px;font-weight:normal;padding:10px; text-transform: lowercase; padding-left: 0px; line-height:20px; font-family: "Delicious Bold";}
+/*.trendtitle{color:#FFD800;font-size:18px;font-weight:normal;padding:10px; border: 1px solid #333;line-height:20px;vertical-align: middle; text-transform: uppercase; text-decoration: none; }*/
+.trendtitle:hover {text-decoration: underline;}
+
+/*TweetLabel, Main Content*/
+.image_wrapper {background:none repeat scroll 0 0 #FFFFFF;border:1px solid #20252C;margin-top:1px;padding:1px;}
+.tweet{padding:3px; height:130px; position: relative; }
+.trendpreview{padding:3px; border: 0px solid #333; height:185px; position: relative; }
+.trendpreview img{margin-right: 5px; margin-bottom:32px; max-height: 48px; max-width: 48px;}
+.meta{line-height: 12px;}
+.twtpic {width:20px; height: 20px; margin-right: 10px;}
+span.user {color:#FE7A01;}
+.cmticon {border:medium none;height:13px;vertical-align:middle;width:15px;}
+.time {color:#888;}
+
+/* Header */
+div#header{border-width:2px 0px;}
+div#logo a img{border:0 none;}
+div#logo {padding-left:8px;}
+span#loginBt{display:block;background-image:url('/netroy/images/loginb.png');width:150px;height:24px;padding:0px;}
+
+div#login{padding-right:8px;margin-top:3px;}
+div#loggedin{color:#fff;margin-top:2px;}
+div#loggedin div.text{font-family:verdana;line-height:16px;margin-right:10px;text-align:right;vertical-align:top;}
+div#loggedin img{border:1px solid #CCC;height:30px;width:30px;}
+/*#header, #footer {background-color:#000;background-image:url("/netroy/images/bgb.gif");border:0 solid #333333;}*/
+
+/* Footer */
+div#footer{width:950px;bottom:0px;padding:0px;margin:0px;border-top:2px solid #333;margin-top:20px;color:#353535; height:20px;}
+div#footerInner{padding:6px 0px 6px 0px;overflow:auto;clear:both;color:#353535;}
+div#footer div.right{text-align:right;}
+div#footer a{color:#FF7903;}
+
+/* Layout Stuff */
+#headerInner,#footerInner,#content{width:100%}
+
+/* Header */
+div#header{height:45px;}
+div#logo{margin-top:5px;width:96px;height:34px;padding:0px;margin-left: 0px;}
+div#logo a img{width:96px;height:34px;border:0px none;}
+div#login div#notloggedin{margin-top:6px;}
+a:hover span#loginBt{background-position:0px -24px;}
+div.tagline{margin-top:5px;padding-top:10px;margin-left:15px; color:#AAA; font-size:16px; float: left; }
+div.tagline1{font-size:12px; float: left; padding-bottom: 10px; }
+
+span.expandcollapse,span.collapseexpand{cursor:pointer;vertical-align: middle;}
+
+span.expandcollapse span,span.collapseexpand span{cursor:pointer;vertical-align: middle;background-image:url("/netroy/images/plus.png");background-repeat:no-repeat;display:inline-block;width:12px;height:15px;margin-right:5px;}
+span.expandcollapse span{background-position:0px 1px;}
+span.collapseexpand span{background-position:-13px 1px;}
+
+/*category css*/
+.categoryname{margin:0px;color:#FFEB00;font-size:22px;font-family:tahoma;text-shadow:1px 1px 2px #222;text-transform:uppercase;}
+.channels{margin:10px; margin-left:5px;}
+
+/*homepage content*/
+.home_content{font-family: "Delicious Bold"; float:left;margin-right:70px;color:#252525;font-size:24px; width:250px; line-height: 18px; text-align: left; padding-top: 20px; text-transform: lowercase; font-weight: bold; }
+.trends_topic{font-family: "Delicious Bold"; font-size:30px; margin-bottom: -23px; color:#FFB400;}
+.channels_topic{font-family: "Delicious Bold"; font-size:30px; color:#FEB400;}
+.related_link {position: absolute; right:2px; bottom: 2px;}
+.home_content a{color:#FF7A01;}
+
+/*Sections */
+.trends_section{background-color:#4D5154; padding-left: 10px; }
+.channels_section{background-color:#000; padding-left: 10px; }
+
+/* tweet msg box */
+.section_w924 .tweet{
+  width: 294px;
+  float: left;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.tweet_msg_box {
+	position:relative;
+	padding:5px;
+	padding-left:20px;
+	margin:0;
+	color:#444;
+	height:75px;
+	background:#fff;
+	border: 1px dotted #000;
+}
+.tweet_msg_box a,.tweet_msg_box a:visited,.tweet_msg_box a:link {color:#B49650}
+.tweet_msg_box + p {margin:2px 0 20px 20px; text-transform: uppercase; font-size: 10px;}
+.tweet_msg_box:after {
+	content:"\00a0";
+	display:block; /* reduce the damage in FF3.0 */
+	position:absolute;
+	bottom:-15px;
+	left:0px;
+	width:0;
+	height:0;
+	border-width:0 15px 15px 0px;
+	border-style:solid;
+	border-color:transparent #fff;
+}
+
+.tweet_msg_shadow{
+-moz-box-shadow:3px 3px #000;
+margin:0 5px 5px 0;
+}
+
+.tweet_msg_shadow:after {
+	content:"\00a0";
+	display:block; /* reduce the damage in FF3.0 */
+	position:absolute;
+	bottom:-16px;
+	left:0px;
+	width:0;
+	height:0;
+	border-width:0 15px 15px 0px;
+	border-style:solid;
+	border-color:transparent #000;
+}
+
+.tweet_msg_box .tweet_text{
+  overflow: hidden;
+  word-wrap: break-word;
+  height: 75px;
+}
+/*searchbox*/
+#searchwrapper {width:269px; height:40px;background-image:url(/netroy/images/searchbox.png);background-repeat:no-repeat; padding:0px;margin:0px;position:relative; float: left;  margin-left: 75px;}
+#searchwrapper form { display:inline ; }
+.searchbox {border:0px; background-color:transparent;position:absolute;top:8px;left:9px;width:222px;height:24px; color:#fff; font-size:1.2em;}
+.searchbox_submit {border:0px; background-color:transparent; position:absolute; top:9px;left:230px;width:30px;height:21px;}
+/* */
+a.tweet_link { color:inherit !important;}
+a.tweet_link:hover { color: #B49650 !important;}

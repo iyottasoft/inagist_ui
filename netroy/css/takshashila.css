@@ -1,0 +1,51 @@
+/* Defaults */
+body, input, textarea, select, option, button {font-family:Arial,sans-serif;}
+body{margin:0;padding:0;color:#222222;line-height:1.5em;background-color: #F3F3EC}
+b{font-size: 110%;}
+em{color: red;}
+#supercontainer{width: 100%; /*Width of main container*/margin: 0 auto; /*Center container on page*/}
+#maincontainer{width: 1000px; /*Width of main container*/margin: 0 auto; /*Center container on page*/}
+#topsection h1{margin: 0;}
+#contentwrapper{float: left;width: 100%;}
+
+#contentcolumn{margin-left: 800px; /*Margin for content column. Should be (RightColumnWidth + LeftColumnWidth)*/}
+#leftcolumn{float: left;width: 400px; /*Width of left column in pixel*/margin-left: -1000px; /*Set left margin to -(MainContainerWidth)*/border-right:1px solid #eee; min-height: 650px;}
+#rightcolumn{float: left;width: 400px; /*Width of right column in pixels*/margin-left: -600px; /*Set right margin to -(MainContainerWidth - LeftColumnWidth)*/border-right:1px solid #eee;min-height: 650px;}
+
+#footer{clear: left;width: 100%;background: black;color: #FFF;text-align: center;padding: 4px 0;}
+#footer a{color: #FFFF80;}
+
+.innertube{margin: 10px;}
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+
+/*Cutomisation*/
+
+#topsection {background:url("http://takshashila.org.in/wp-content/themes/takshashila/img/common/header.png") repeat scroll 0 0 transparent;float:left;width:100%;}
+a,a:visited {color:#941A1D;text-decoration:none;}
+h1 a {background:url("http://takshashila.org.in/wp-content/themes/takshashila/img/common/takshashila_logo.gif") no-repeat scroll 0 0 transparent;display:block;float:left;height:75px;text-indent:-999em;width:305px;}
+div#tweetlabel {border-bottom:0px solid #222222;font-family:Helvetica,Arial,sans-serif;font-size:20px;padding:16px 0 15px 0px;text-shadow:1px 1px 2px #222222;text-transform:uppercase;line-height:1.286;}
+
+/* Tweet Containers */
+div#tweets div.body{border-bottom:1px solid #ccc;}
+div.child {display:none}
+div.body{padding:3px;background-repeat:repeat-x; }
+
+/* Actual Tweet List */
+table.tweets td.text{font-family:verdana,arial,serif;font-size:12px;line-height:16px;vertical-align:top;}
+table.tweets td.label{width:70px;color:#777;text-transform:uppercase;text-align:right;padding-right:6px;font-size:10px;}
+table.tweets{width:100%;}
+table.tweets td{vertical-align:top;align:left;}
+td.pic{padding:5px;width:50px;}
+td.pic img{width:48px;height:48px;background-color:#EEE;border:1px solid #444;}
+td.text{padding:4px;padding-top:0px;}
+td.text div{min-height:50px;padding-top:1px; word-wrap:break-word;}
+td.text span.retweet-icon{background-color:#333333;background-position:-80px -2px;border:1px solid #eee;display:inline-block;height:12px;width:16px;margin:1px 2px -3px;}
+span.favorite {display:block;float:right;height:15px;margin:2px 0 2px 5px;width:15px;}
+span.retweet-icon, span.favorite a.fav, span.replybt, span.retweetbt, span.prevbt, span.respbt {background-image:url("../images/iconsprite.gif");background-repeat:no-repeat;display:inline-block;}
+
+/* footer */
+#template_footer {font-family: verdana,Arial;}
+/* end of footer */

@@ -1,0 +1,46 @@
+User-Agent: Googlebot
+Disallow: /api/ 
+Disallow: /js/
+Disallow: /status/ 
+Disallow: /search 
+Disallow: /a$
+Disallow: /a?
+
+User-agent: Mediapartners-Google
+Disallow: /api/
+
+User-agent: msnbot
+Disallow: /api/
+Disallow: /js/
+Disallow: /status/ 
+Disallow: /search 
+
+User-agent: Yahoo! Slurp
+Disallow: /api/
+Disallow: /js/
+Disallow: /status/ 
+Disallow: /search 
+
+User-Agent: ia_archiver
+Disallow: /api/
+Disallow: /js/
+Disallow: /status/ 
+Disallow: /search 
+
+User-Agent: Rome Client
+Disallow: /api/
+Disallow: /js/
+Disallow: /status/ 
+Disallow: /search 
+
+User-Agent: Baiduspider
+Disallow: /api/
+Disallow: /js/
+Disallow: /status/ 
+Disallow: /search 
+
+User-Agent: *
+Disallow: /
+
+Sitemap: http://inagist.com/netroy/sitemap.xml
+

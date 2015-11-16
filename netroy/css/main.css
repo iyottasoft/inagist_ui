@@ -1,0 +1,169 @@
+/* Layout Stuff */
+#headerInner,#footerInner,#content{width:100%}
+
+/* Header */
+div#header{height:45px;}
+div#logo{margin-top:5px;width:96px;height:34px;padding:0px;margin-left: 15px;}
+div#logo a img{width:96px;height:34px;border:0px none;}
+div#login div#notloggedin{margin-top:6px;}
+a:hover span#loginBt{background-position:0px -24px;}
+div.tagline{margin-top:5px;padding-top:10px;margin-left:15px; color:#AAA; font-size:16px; float: left; }
+
+
+/* Content */
+div#content{margin:0px auto;padding-bottom:45px;}
+div#content #leftpane,div#content #rightpane{margin:0px;padding:0px;border:0 none;}
+/*div#content #leftpane{width:490px;float:right;padding-right:10px;}
+div#content #rightpane{width:460px;float:right;padding-right:10px;}*/
+
+/* About & Logo */
+div#about{margin:2px 10px;padding:10px;}
+div#minilogo{background-image:url('../images/logo-mini.png');width:77px;height:27px;}
+span.mb{display:none;}
+
+/* About Subsections */
+ul#moreabout li{margin:4px;padding:4px;width:700px;}
+ul#moreabout li p{font-size:14px;line-height:26px;}
+
+ul#moreabout li p a{color:#ffeb00;border-bottom:1px dotted #ffeb00;text-decoration:none;font-weight:bold;}
+ul#moreabout li p a:hover{border-bottom:1px solid #ffae00;}
+
+div#rightpane div.label{background-color:#000;background-image:url('../images/block.png');color:#ffeb00;}
+div#rightpane div.label{padding:4px 5px;margin:10px 0px;font-weight:bold;font-size:15px;font-family:georgia;}
+div#rightpane div.label a{color:#ffeb00;text-decoration:done;}
+
+/* Portals */
+div.portal{margin-bottom:10px;}
+div#portals div.heading{float:left;padding:4px 20px 0px 10px;color:#ffffff;text-shadow:1px 1px 2px #000000;border-top:1px solid #888;}
+div#portals div.heading span{margin:0px;text-transform:uppercase;font-size:16px;font-family:tahoma;}
+div#portals div.heading a{color:#f0f0f0;text-decoration:none;}
+div#portals div.heading a:hover{color:#fff;text-shadow:0 0 0 none;}
+div#portals div.heading span.label{/*padding-right:8px;*/}
+div#portals div.more{border:1px solid #777;border-bottom:0px none;background-color:#000 !important;margin-left:4px;margin-top:3px;padding-top:0;-moz-border-radius:0 10px 0 0;-webkit-border-radius:0 10px 0 0;}
+div#portals div.more span.toggle{font-size:10px;color:#389DE6;text-transform:lowercase; }
+div#portals div.more a:hover span.toggle{text-decoration:underline;}
+div#portals div.body{clear:both;border-top:3px solid #fff;border-bottom:1px solid #444;}
+
+/* Colors for the Poratals */
+div#portals div.pr0 div.body{border-top-color:#2e8250;}
+div#portals div.pr0 div.heading{background-color:#2e8250;}
+
+div#portals div.pr1 div.body{border-top-color:#781B6E;}
+div#portals div.pr1 div.heading{background-color:#781B6E;}
+
+div#portals div.pr2 div.body{border-top-color:#1C4461;}
+div#portals div.pr2 div.heading{background-color:#1C4461;}
+
+div#portals div.pr3 div.body{border-top-color:#54371B;}
+div#portals div.pr3 div.heading{background-color:#54371B;}
+
+div#portals div.pr4 div.body{border-top-color:#1B4F54;}
+div#portals div.pr4 div.heading{background-color:#1B4F54;}
+
+div#portals div.pr5 div.body{border-top-color:#541B22;}
+div#portals div.pr5 div.heading{background-color:#541B22;}
+
+div#portals div.pr6 div.body{border-top-color:#54531B;}
+div#portals div.pr6 div.heading{background-color:#54531B;}
+
+
+
+/* Tweet Containers */
+/*div.body,div.preview{background-image:url('../images/block.png'); }
+div.body{background-color: black;}*/
+
+/* Actual Tweet List */
+table.tweets td.text{font-family:'Droid Serif',arial,serif;font-size:12px;color:#333;line-height:16px; word-wrap: break-word;}
+table.tweets td.label{width:70px;color:#777;text-transform:uppercase;text-align:right;padding-right:6px;font-size:10px;}
+
+/* Tweet Metadata and Actions */
+div.hover{background-position:0px -140px; }
+div.hover td.pic img{background-color:#fff;border-color:#fff;}
+div.hover td.action span,div.hover td.text span.favorite span{visibility:visible;}/*div.hover span.favorite a.fav*/
+div.hover td.text a{text-decoration:underline;}
+
+/* Preview */
+div.preview div.stats{margin-top:6px;}
+
+/* loader and modal windows */
+div#mCont div.info{width:500px;}
+div#mCont div.dialog{width:370px;/*height:150px;*/}
+div#mCont div.dialog div.content textarea{width:98%;height:70px;}
+
+/* Oembed */
+.oembed_wrapper {margin-bottom: 10px; padding: 2px; background-color: white; border: 1px solid #888;}
+.oembed_wrapper object {margin: 0px auto; display: block; max-width: 720px;}
+.oembed_wrapper embed {margin: 0px auto; display: block; max-width: 720px;}
+.oembed_wrapper img {margin: 0px auto; display: block; max-width: 720px;}
+
+.embedly_branding { margin: 5px; display: inline-block;}
+.story_details {background-color: #eee; margin-top: 10px; padding: 5px; border: 1px black dotted; line-height: 1.4em; overflow: hidden; font-size: 12px; font-family: 'Droid Serif', arial, sans-serif;}
+.story_details img {float: left; margin-right: 5px; border: 1px #999 solid; max-width: 100px; max-height: 60px;}
+
+a.clink { color:inherit;}
+a.clink:hover { color: #3287AE;}
+
+/* Ads Styles */
+.google_ad_custom {
+  border: 1px #999 solid;
+  line-height: 15px;
+  padding: 5px;
+}
+
+.google_ad_125x125 {
+  width: 115px;
+  height: 115px;
+  overflow: hidden;
+}
+
+.google_ad_250x250 {
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+}
+
+.google_ad_728x90 {
+  width: 718px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.google_ad_336x280 {
+  margin: 5px 12px;
+  height: 280px;
+}
+
+.google_ad_bottom_container {
+  margin-bottom: 10px;
+  height: 290px;
+  background: white;
+  border: 1px solid #888;
+}
+
+.popular_section {
+  width: 48%; 
+  display: inline-block; 
+  height: 400px;
+  overflow: hidden !important;
+}
+
+.trending_now_section {
+  width: 48%; 
+  display: inline-block; 
+  height: 400px; 
+  float: right;
+  overflow: hidden !important;
+}
+
+.sub_header {
+  text-align: center;
+  background-color: #ccc;
+  font-size: 14px;
+  font-family: Cabin, sans-serif;
+  margin-bottom: 5px;
+  padding: 3px;
+}
+
+.popular_section li, .trending_now_section li {
+  height: 75px;
+}

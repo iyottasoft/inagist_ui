@@ -1,0 +1,19 @@
+<?php
+$sqlConfig = array(
+  "local"=>array(
+    "host"=>"localhost",
+    "user"=>"root",
+    "password"=>"root",
+    "db"=>"inagist",
+    "debug"=>true
+  ),
+  "prod"=>array(
+    "host"=>"mysql_master",
+    "user"=>"inagist",
+    "password"=>"inagist",
+    "db"=>"inagist",
+    "debug"=>false
+  )
+);
+var_extract($sqlConfig,"sql");
+?>

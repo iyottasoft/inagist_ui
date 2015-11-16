@@ -1,0 +1,39 @@
+
+/* Header */
+div#header{height:40px;overflow:auto;}
+div#logo{margin-top:6px;background-image:url('../images/logo-mini.png');width:76px;height:27px;}
+div#logo a img{width:76px;height:27px;}
+div#login{margin-top:2px;}
+div#notloggedin{margin-top:5px;}
+
+/* Content */
+div#left{margin:0px;margin-top:6px;padding:0px 4px}
+
+/* About & Logo */
+div#about blockquote{line-height:18px;}
+
+/* About Subsections */
+ul#moreabout li{margin:8px 0px;padding:8px;}
+ul#moreabout li p a{color:#ffeb00;border-bottom:1px dotted #ffeb00;text-decoration:none;font-weight:bold;text-shadow:none;}
+
+/* Tweet Containers */
+div#tweets div.body, div#tweets li.body{margin:0px;}
+div.body,div.preview, li.body, li.preview{background-image:url('../images/block.jpg');}
+ul.tweetslist {padding: 0px; list-style: none; margin: 0px;}
+div.child, li.child {display:none}
+
+/* Actual Tweet List */
+table.tweets td.text div{font-family:verdana;font-size:12px;color:#DDD;line-height:16px;}
+
+/* Tweet Metadata and Actions 
+td.action span.prevbt,td.action span.respbt{display:none;font-size:1px;width:1px}*/
+td.action{width:45px;}
+span.prevbt,span.respbt{display:none;width:0px;overflow:hidden;}
+
+/* Preview */
+div.preview div.stats{margin-top:8px;}
+
+/* loader and modal windows */
+div#mCont div.info{width:300px;}
+div#mCont div.dialog{width:300px;/*height:150px;*/}
+div#mCont div.dialog div.content textarea{width:98%;height:80px;}

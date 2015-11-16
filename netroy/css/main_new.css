@@ -1,0 +1,108 @@
+body{margin:0;padding:0;line-height: 1.5em;background: #000;color: #DDD; font-family: 'Cabin',verdana,arial,sans-serif; font-size: 13px; text-align: left;}
+a, a:visited, a:link {color:#389DE6;text-decoration:none;}
+h2.title{font-size:14px;line-height:16px;margin-bottom:6px;margin-top:0px;}
+b{font-size: 110%;}
+em{color: red;}
+p{margin-top: 0px; margin-bottom: 8px;}
+
+#maincontainer{width: 940px; /*Width of main container*/margin: 0 auto; /*Center container on page*/}
+
+#topsection{height: 65px; /*Height of top section*/}
+#topsection h1{margin: 0;padding-top: 15px;}
+
+#contentwrapper{float: left;width: 100%;}
+#contentcolumn{margin-left: 200px; /*Set left margin to LeftColumnWidth*/}
+
+#leftcolumn{float: left;width: 200px; /*Width of left column*/margin-left: -940px; /*Set left margin to -(MainContainerWidth)*/}
+
+#footer{clear: left;width: 100%;background: black;color: #FFF;text-align: center;padding: 4px 0;}
+
+.innertube{margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/margin-top: 0;}
+
+/*general float and clear properties*/
+.left {float: left;}
+.right {float: right;}
+.clear {clear: both;}
+
+/* Trends Ticker*/
+.trending{float:left;}
+.trending .inner{position:relative;width:590px;height:3em;overflow:hidden; vertical-align: top;}
+.trending ul{position:absolute;top:0;width:9999em; list-style: none outside none;}
+.trending li{float:right;list-style: none outside none;}
+.trending a:link,.trending a:visited{float:left;padding-left:5px;padding-right:20px;color:#389DE6;}
+
+/*Logo Tagline */
+.tagline{font-size:18px;}
+
+/*Bullets*/
+div.bullets div.bullet-item {width:280px; padding:30px 20px 30px 0;}
+
+.section_w940 {width:940px;}
+.section_w300 {width:300px;padding:0 8px 0 0; }
+.section_w455 {width:460px;padding:0 10px 0 0px; }
+.margin_r_10 {margin-right:0px; margin-bottom:20px;}
+.margin_r_20 {margin-right:10px; margin-bottom:20px;}
+.channeltitle{color:#FFD800;font-size:24px;font-weight:normal;padding:10px; border: 1px solid #333; }
+.trendtitle{color:#FFD800;font-size:18px;font-weight:normal;padding:10px; border: 1px solid #333;line-height:20px;vertical-align: middle; text-transform: uppercase; text-decoration: none; }
+.trendtitle:hover {text-decoration: underline;}
+
+/*TweetLabel, Main Content*/
+.image_wrapper {background:none repeat scroll 0 0 #FFFFFF;border:3px solid #20252C;margin-top:3px;padding:1px;}
+.tweet{padding:3px; border: 1px solid #333; height:105px; position: relative; }
+.trendpreview{padding:3px; border: 0px solid #333; height:180px; position: relative; }
+.trendpreview img{margin-right: 10px; max-height: 75px; max-width: 100px;}
+.meta{position: absolute; bottom: 2px;left: 5px;}
+.twtpic {width:43px; height: 43px; margin-right: 10px;}
+span.user {color:#FFEB00;}
+.cmticon {border:medium none;height:13px;vertical-align:middle;width:15px;}
+.time {color:#888;}
+
+/* Header */
+div#header{border-width:2px 0px;}
+div#logo a img{border:0 none;}
+div#logo {padding-left:8px;}
+span#loginBt{display:block;background-image:url('/netroy/images/loginb.png');width:150px;height:24px;padding:0px;}
+
+div#login{padding-right:8px;margin-top:3px;}
+div#loggedin{color:#fff;margin-top:2px;}
+div#loggedin div.text{font-family:verdana;line-height:16px;margin-right:10px;text-align:right;vertical-align:top;}
+div#loggedin img{border:1px solid #CCC;height:30px;width:30px;}
+/*#header, #footer {background-color:#000;background-image:url("/netroy/images/bgb.gif");border:0 solid #333333;}*/
+
+/* Footer */
+div#footer{width:100%;bottom:0px;padding:0px;margin:0px;background-color:#000;border-top:2px solid #333;margin-top:20px;color:#666666; height:20px;}
+div#footerInner{padding:6px 0px 6px 0px;overflow:auto;clear:both;color:#CCC;}
+div#footer div.right{text-align:right;}
+
+/* Layout Stuff */
+#headerInner,#footerInner,#content{width:100%}
+
+/* Header */
+div#header{height:45px;}
+div#logo{margin-top:5px;width:96px;height:34px;padding:0px;margin-left: 0px;}
+div#logo a img{width:96px;height:34px;border:0px none;}
+div#login div#notloggedin{margin-top:6px;}
+a:hover span#loginBt{background-position:0px -24px;}
+div.tagline{margin-top:5px;padding-top:10px;margin-left:15px; color:#AAA; font-size:16px; float: left; }
+div.tagline1{color:#AAA; font-size:12px; float: left; padding-bottom: 10px; }
+
+span.expandcollapse,span.collapseexpand{cursor:pointer;vertical-align: middle;}
+
+span.expandcollapse span,span.collapseexpand span{cursor:pointer;vertical-align: middle;background-image:url("/netroy/images/plus.png");background-repeat:no-repeat;display:inline-block;width:12px;height:15px;margin-right:5px;}
+span.expandcollapse span{background-position:0px 1px;}
+span.collapseexpand span{background-position:-13px 1px;}
+
+/*category css*/
+.categoryname{margin:0px;color:#FFEB00;font-size:22px;font-family:tahoma;text-shadow:1px 1px 2px #222;text-transform:uppercase;}
+.channels{margin:10px; margin-left:5px;}
+
+/*homepage content*/
+.home_content{float:left;margin-right:25px;color:#DDD;font-size:13px; width:220px; line-height: 16px; text-align: left; padding-top: 10px;}
+.home_topic{margin-bottom: -23px; font-weight:normal;}
+.related_link {position: absolute; right:2px; bottom: 2px;}
+
+/*searchbox*/
+#searchwrapper {width:269px; height:40px;background-image:url(/netroy/images/searchbox.png);background-repeat:no-repeat; padding:0px;margin:0px;position:relative; float: left;  margin-left: 75px;}
+#searchwrapper form { display:inline ; }
+.searchbox {border:0px; background-color:transparent;position:absolute;top:8px;left:9px;width:222px;height:24px; color:#fff; font-size:1.2em;}
+.searchbox_submit {border:0px; background-color:transparent; position:absolute; top:9px;left:230px;width:30px;height:21px;}

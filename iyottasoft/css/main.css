@@ -1,0 +1,54 @@
+body,td{font-size:12px;}
+hr.hbr{margin:10px 0px;border-bottom:1px solid #FFF;border-top:1px solid #DDD;height:0px;padding:0px;}
+.georgia{font-family:Georgia, Times, ‘Times New Roman’, serif;}
+.trebuchet{font-family:Trebuchet, Tahoma, Arial, sans-serif;}
+.inblk{display:inline-block;}
+.nopad{padding:0px !important;}
+.left{float:left;}
+.right{float:right;}
+.clear{float:none;clear:both;}
+
+div#leftOuter{float:left;width:100%;}
+div#leftInner {background-color:#F6F6F6;border-right:1px solid #CCC;margin-right:250px;background-image:url('../images/panelfade.png');background-repeat:repeat-y;background-position:top right;}
+
+div#rightOuter{float:left;margin-left:-250px;width:250px;}
+div#rightInner{background-color:#EBEBEB;border-left:1px solid #F8F8F8 ;text-align:center;background-image:url('../images/bg.png');}
+
+div#leftInner,div#rightInner{height:600px;padding:10px 10px 0px;}
+
+div#home,div#team{padding:5px 20px;}
+div#home h2,div#team h2{font-size:32px;font-family:georgia;color:#E0270A;margin:8px 0px;text-shadow:1px 1px 0px #BBB;border-bottom:1px solid #DDD;line-height:28px;padding:0 4px;}
+
+div#home p{font-size:16px;color:#666;margin:0px 0px 24px 20px;line-height:22px;text-shadow:0px 0px 2px #FFF;}
+div#home p a{color:#3151A2;}
+div#home p i{padding:10px 20px;color:#222;}
+div#home sup{font-size:80%;}
+div#home sup.note{color:#666666;margin:30px 0 10px 0;}
+
+div#team div.person{overflow:auto;margin:10px 0px 15px;}
+div#team div.image{background-color:#fff;padding:3px;border:1px solid #DDD;margin:0px 10px;}
+div#team div.image img{border:0 none;}
+
+div#team h3.name{clear:none;font-size:22px;line-height:26px;color:#888;border-bottom:1px solid #ddd;padding-left:10px;}
+div#team h3.name b{font-weight:normal;font-size:28px;color:#111;}
+
+div#team div.about,div#team div.links{padding:10px 20px;}
+div#team div.about{font-size:16px;color:#666;line-height:22px;text-shadow:1px 1px 2px #FFF;}
+div#team a{font-size:14px;text-decoration:none;margin:0 10px;color:#257EB8;display:inline-block;height:16px;line-height:18px;}
+a.icon{background-image:url('../images/iconsprite.png');background-repeat:no-repeat;padding-left:20px;}
+div#team div.links a.twitter{background-position:0 0px;color:#0084B4;}
+div#team div.links a.linkedin{background-position:0 -16px;color:#006699;}
+div#team div.links a.jebu{background-position:0 -32px;color:#0084B4;}
+div#team div.links a.netroy{background-position:0 -48px;color:#006699;}
+
+
+a.logo{border:0 none;display:block;margin:0 auto;text-decoration:none;}
+a.logo img{border:0 none;display:block;margin:0 auto 12px;}
+a.logo span{font-size:28px;line-height:30px;display:block;margin:0 auto;color:#666;text-shadow:1px 1px 1px #FFFFFF;}
+a.logo span big{/*font-size:36px;*/font-size:28px;font-weight:normal;}
+
+div.menu{font-size:22px;line-height:30px;text-align:left;}
+div.menu a{display:block;color:#889;text-decoration:none;padding-left:10px;}
+div.menu a:hover{color:#555;}
+
+div.copy{font-size:12px;color:#777;}

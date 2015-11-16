@@ -1,0 +1,112 @@
+/* Defaults */
+body, input, textarea, select, option, button {font-family:Arial,sans-serif;}
+body{margin:0;padding:0;color:#222222;line-height:1.5em;background-color: #F3F3EC}
+b{font-size: 110%;}
+em{color: red;}
+#supercontainer{width: 100%; /*Width of main container*/margin: 0 auto; /*Center container on page*/}
+#maincontainer{width: 1000px; /*Width of main container*/margin: 0 auto; /*Center container on page*/}
+#topsection h1{margin: 0;}
+#contentwrapper{float: left;width: 100%;}
+
+#contentcolumn{margin-left: 800px; /*Margin for content column. Should be (RightColumnWidth + LeftColumnWidth)*/}
+#leftcolumn{float: left;width: 400px; /*Width of left column in pixel*/margin-left: -1000px; /*Set left margin to -(MainContainerWidth)*/border-right:1px solid #eee; min-height: 650px;}
+#rightcolumn{float: left;width: 400px; /*Width of right column in pixels*/margin-left: -600px; /*Set right margin to -(MainContainerWidth - LeftColumnWidth)*/border-right:1px solid #eee;min-height: 650px;}
+
+#footer{clear: left;width: 100%;background: black;color: #FFF;text-align: center;padding: 4px 0;}
+#footer a{color: #FFFF80;}
+
+span#loginBt{display:block;background-image:url('../images/loginb.png');width:150px;height:24px;padding:0px;}
+
+div#login{padding-right:8px;margin-top:3px;}
+
+.innertube{margin: 10px;}
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+.clear-right{clear: right;}
+
+/*Cutomisation*/
+
+#topsection {background:url("http://takshashila.org.in/wp-content/themes/takshashila/img/common/header.png") repeat scroll 0 0 transparent;float:left;width:100%;}
+a,a:visited {color:#941A1D;text-decoration:none;}
+h1 a {display:block;float:left;min-height:77px;text-indent:-999em;width:425px;text-transform: uppercase;font-family:Helvetica,Arial;}
+div#tweetlabel {border-bottom:0px solid #222222;font-family:Helvetica,Arial,sans-serif;font-size:20px;padding:16px 0 15px 0px;text-shadow:1px 1px 2px #222222;text-transform:uppercase;line-height:1.286;}
+
+/* Tweet Containers */
+div#tweets div.body{border-bottom:1px solid #ccc;}
+div.child {display:none}
+div.body{padding:3px;background-repeat:repeat-x; }
+
+/* Actual Tweet List */
+table.tweets td.text{font-family:verdana,arial,serif;font-size:12px;line-height:16px;vertical-align:top;}
+table.tweets td.label{width:70px;color:#777;text-transform:uppercase;text-align:right;padding-right:6px;font-size:10px;}
+table.tweets{width:100%;}
+table.tweets td{vertical-align:top;align:left;}
+td.pic{padding:5px;width:50px;}
+td.pic img{width:48px;height:48px;background-color:#EEE;border:1px solid #444;}
+td.text{padding:4px;padding-top:0px;}
+td.text div{min-height:50px;padding-top:1px; word-wrap:break-word;}
+td.text span.retweet-icon{background-color:#333333;background-position:-80px -2px;border:1px solid #eee;display:inline-block;height:12px;width:16px;margin:1px 2px -3px;}
+
+span.retweet-icon, span.favorite a.fav, span.replybt, span.retweetbt, span.prevbt, span.respbt {background-image:url("../images/iconsprite.gif");background-repeat:no-repeat;display:inline-block;}
+
+/* favourite star */
+span.favorite{float:right;display:block;height:15px;width:15px;margin:2px 5px;margin-right:0;}
+span.favorite a.fav{cursor:pointer;display:block;height:15px;width:15px;visibility:hidden;background-position:-32px 0;}
+span.favorite a.fav:hover{background-position:-48px 0;}
+
+td.action span,span.favorite span{visibility:hidden;}
+div.selected td.action span,div.selected td.text span.favorite span{visibility:visible;}/*,div.selected span.favorite a.fav*/
+
+/* Tweet Metadata and Actions */
+tr.meta,td.meta,td.action{height:14px;}
+td.meta span,td.action{text-transform:lowercase;font-family:verdana;font-size:12px;}
+td.meta a{text-decoration:none;}
+td.meta span.user{color:#ffeb00;padding-left:16px;padding-right:10px;background-image:url('../images/icons.png');background-position:2px center;background-repeat:no-repeat;}
+td.meta span.time{color:#888;}
+
+td.action{text-align:right;width:70px;}
+td.action span,span.favorite span{visibility:hidden;}
+
+span.replybt,span.retweetbt,span.prevbt,span.respbt{height:15px;margin-right:4px;width:15px;cursor:pointer;}
+td.action span.prevbt,td.action span.respbt{cursor:pointer;visibility:visible;}
+
+span.retweetbt{background-position:-80px -16px;}
+td.action a:hover span.retweetbt,td.text a:hover span.retweetbt{background-position:-80px 0px;}
+span.replybt{background-position:-32px -16px;}
+td.action a:hover span.replybt,td.text a:hover span.replybt{background-position:-32px 0px;}
+span.prevbt,span.respbt{background-position:-48px -16px;}
+span.expandcollapse{background-position:0px 1px;}
+span.collapseexpand{background-position:-13px 1px;}
+td.action a:hover span.prevbt,td.action a:hover span.respbt,td.text a:hover span.prevbt,td.text a:hover span.respbt{background-position:-48px 0px;}
+
+div.selected td.action span,div.selected td.text span.favorite span{visibility:visible;}/*,div.selected span.favorite a.fav*/
+div.selected td.action span.prevbt,div.selected td.action span.respbt{background-position:-64px -16px;}
+div.selected td.action a:hover span.prevbt,div.selected td.action a:hover span.respbt{background-position:-64px 0px;}
+
+/* loader and modal windows */
+div#mCont{position:fixed;padding:0px;margin:0px auto;top:0px;/*display:none;*/}
+div#mCont div.overlay,div#mCont div.loader,div#mCont div.info,div#mCont div.dialog{position:fixed;display:none;/**/}
+div#mCont div.overlay{z-index:999;background-color:#111;cursor:wait;}
+
+div#mCont div.loader,div#mCont div.info{
+  top:0;margin:0 auto;padding:2px;background-color:#FFF;
+  border:4px solid #888;border-top:0px none;-moz-border-radius:0 0 6px 6px;-webkit-border-radius:0 0 6px 6px;color:#005566;font-family:verdana;font-size:10px;
+  line-height:20px;text-align:center;
+}
+div#mCont div.loader{z-index:1001;width:180px;text-transform:uppercase;
+  background-image:url('../images/loader.gif');background-repeat:no-repeat;background-position:center center;}
+div#mCont div.info{z-index:1002;font-weight:bold;color:#D03706;}
+div#mCont div.dialog{z-index:1003;background-color:#fff;border:1px solid #000;-moz-border-radius:3px;-webkit-border-radius:3px;}
+div#mCont div.dialog div.title{background-color:#ddd;border:1px solid #aaa;margin:2px;padding:4px;font-weight:bold;-moz-border-radius:2px;-webkit-border-radius:2px;text-shadow:0px 0px 1px #AAA;}
+div#mCont div.dialog div.content{margin:2px;padding:4px;color:#222222;text-align:right;overflow:auto;}
+div#mCont div.dialog div.content textarea{display:block;border:1px solid #CCC;margin:0px auto;/*padding:4px;*/}
+div#mCont div.dialog div.content p{text-align:center;font-size:14px;margin:10px;}
+div#mCont div.dialog div.content span{float:left;padding:4px;font-family:georgia,serif;}
+div#mCont div.dialog div.content button{width:60px;margin:4px 6px 0px;}
+
+
+/* footer */
+#template_footer {font-family: verdana,Arial;}
+/* end of footer */

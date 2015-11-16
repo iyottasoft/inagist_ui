@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background-color:#002e68; background-image: url(../images/bg_white.jpg); background-repeat:repeat-x; background-position: top; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; color:#FFF; }
+#bg {background-image: url(../images/bg.gif); background-repeat: no-repeat; background-position: center; width: 100%;}
+#logo {width:153px; padding-left: 22px; padding-top: 12px; height: 99px;}
+#twimentry { width:223px; float:right; vertical-align:middle; margin:-70px 0px 0px 0px;}
+#container {margin: 0 auto; width:1000px; }
+#overs_bg {background-image:url(../images/overs_bg.jpg); height:100px; width:1000px; background-repeat:repeat-x; margin-top:16px; overflow:auto;}
+#overs_title { width:49px; height:14px; margin:10px 0px 0px 15px;}
+.grey_bg {width:992px; margin-top:16px; background-color:#dfe0e1; padding:4px;}
+.white_bg {width:100%; height:118px; background-color:#fff; overflow: hidden;}
+.white_bg2 {width:100%; height:155px; background-color:#fff; overflow: hidden;}
+.white_bg3 {width:100%; height:100%; background-color:#fff;}
+.white_bg4 {width:100%; height:85px; background-color:#fff;}
+.white_bg5 {width:100%; height:156px; background-color:#fff; overflow: hidden;}
+#footer_text {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#a5a5a5; text-align:center; width:650px; float:left; height:55px; padding-top:30px;}
+#footer_text a { color: #a5a5a5; text-decoration: underline;}
+#footer_text a:hover { text-decoration: none;}
+#tweet_loader {background-color: #333; opacity: 0.8; padding: 10px; margin: 30px auto; z-index: 100; color: white; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; width: 300px; text-align: center; }
+#comment_container {width:1000px; height:414px; overflow:auto; position: relative;}
+.comment_grey_bg {width:304px; margin-right:15px; margin-bottom:15px; background-color:#dfe0e1; padding:4px; float:left;}
+#active_user_name {width:120px; height:20px; padding-top:30px; padding-right:10px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#006db8; font-weight:bold; }
+#logout {font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#6a6a6a; text-decoration:underline; width:48px;}
+#logout a{font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#6a6a6a; text-decoration:underline;  width:48px;}
+#logout a:hover{font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#6a6a6a; text-decoration:none;  width:48px;}
+.photo {width:48px; height:48px; padding-right:15px; float:left;}
+.photo img {width: 48px; height: 48px;}
+.padding6 {padding:6px; position: relative;}
+.username {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#006db8; font-weight:bold; text-align:left; padding-bottom:5px;}
+.blue_title {font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#006db8; text-align:left; padding-top:10px; float:left; padding-left: 57px;}
+.user_comment {font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#000; text-align:left; padding-bottom:10px; float:left; width:220px; line-height: 15px;}
+.comment_time {font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#000; text-align:left;  float:left; width:85px; padding-left: 62px;}
+.icons {width:25px; float:right;}
+.icons:hover {cursor: pointer;}
+.tweet_field {width:550px; height: 68px; font-family:Arial, Helvetica, sans-serif; font-size:12px; float:left; padding:3px; margin-top: 15px;}
+.content_grey_bg {width:631px; margin-right:15px; margin-bottom:5px; background-color:#dfe0e1; padding:4px; float:left;}
+.teams_title {font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#006db8; text-align:center; padding-bottom:10px; padding-top:10px; width:172px; }
+.light_blue_text {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#00b4ea; text-align:center; width:172px; float:left;}
+.light_blue_title {font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#00b4ea; text-align:left; width:100%; float:left;}
+.live_score {font-family:Arial, Helvetica, sans-serif; font-size:60px; color:#006db8; text-align:left; width:100%; float:left;}
+.grey_18 {font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#949494; text-align:left; width:100%; float:left;}
+.black_text14 {font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000; text-align:left; width:100%; float:left; height: 16px;}
+.over_statistics {font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#00b4ea; text-align:left; width:100%; float:left; padding-top:10px; padding-bottom:5px;}
+.ball_details { background-image: url(../images/ball_back.png); background-repeat:no-repeat; width: 32px; height: 32px; color: white; font-size: 18px; text-align: center; display: inline-block; padding-right: 2px; line-height: 1.8em;}
+#rpo_greyBg {background-color:#eaeaeb; height:38px; width:555px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#006db8; float:left;}  
+.players_score {width:338px; margin-bottom:5px; background-color:#dfe0e1; padding:4px; float:left;}
+.players_score_box {
+  height:120px; float:left; width:233px; overflow:auto; margin-bottom:5px; margin-top:5px;
+}
+.players_score_box a{
+  padding-right: 5px;
+  text-decoration: none;
+  width:200px; 
+  font-family:Arial, Helvetica, sans-serif; 
+  font-size:12px; 
+  color:#00b2e9; 
+  font-weight:bold; 
+  float:left; 
+  text-decoration:none;
+  line-height: 18px;
+}
+.players_score_box a:hover{
+  text-decoration: underline;
+}
+
+.curtained {opacity: 1.0;}
+
+#header_container_bg {background-image:url(../images/header_container_bg.jpg); height:231px; width:1000px; background-repeat:repeat-x; margin-top:16px; overflow:auto;}
+#content_blue_bg {width:992px; margin-top:15px; background-color:#016ab2;  border:#a3b0c0 4px solid; height:193px;}
+#header_title {background-image:url(../images/twimentary_title.jpg); height:36px; width:220px; background-repeat:no-repeat; margin-top:25px; margin-left:50px;}
+#header_line1 {background-image:url(../images/header_line1.jpg); height:36px; width:659px; background-repeat:no-repeat; margin-top:15px; margin-left:50px;}
+#header_line2 {background-image:url(../images/header_line2.jpg); height:36px; width:664px; background-repeat:no-repeat; margin-top:15px; margin-left:50px;}
+
+#dialog{position: fixed;top: 100px;left: 50%;width: 400px;margin-left: -200px;padding: 5px;background-color: rgba(15,15,15,0.75);
+	font-family: georgia;border-radius: 5px;text-align: center;z-index:60; color: black;}
+#dialog div{background-color: white;}
+#dialog button {font-size: 12px;}
+#dialog textarea {font-size: 14px;}
+#dialog .clear{clear: both;}
+#dialog .tweetConfirm{position: relative;height:100px;}
+#dialog .tweet{width: 98%;}
+
+.logged_in_user_image{
+  width: 48px;
+  height: 48px;
+  float: left;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.tweet_footer{
+  width: 300px;
+  height: 20px;
+  position: absolute;
+  top: 95px;
+}
+#last_ball_comment{
+  font-size: 12px;
+  height: 28px;
+  overflow: hidden;
+}
+.dialog_user_details{
+  float: right;
+  text-align: center;
+}
+.dialog_user_details img{
+  padding-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+.dialog_action_text{
+  font-family:Arial, Helvetica, sans-serif; 
+  font-size:14px; 
+  color:#444444; 
+  margin-top:10px; 
+  margin-bottom:10px;
+  text-align: left;
+  padding-left: 10px;
+}
+.dialog_user_details{
+  font-family:Arial, Helvetica, sans-serif; 
+  font-size:12px; 
+  color: white;
+  text-align: right;
+  background-color:#002e68 !important; 
+}
+.navy_bluebg{
+  background-color:#002e68 !important; 
+  height:40px; 
+  padding-left:18px; 
+  padding-right:18px;
+  padding-top: 10px;
+}
+.tweetConfirm .username{
+  font-size: 16px;
+}
+.tweetConfirm .user_comment{
+  font-size: 15px;
+  width: 310px;
+}
+.tweetConfirm .tweet_footer{
+  top: 90px;
+}
+.tweetConfirm .white_bg{
+  height: 120px;
+}
+#live_comments .tweet a { color: #006db8; text-decoration: underline;}
+#live_comments .tweet a:hover {text-decoration: none;}
+#login_button {cursor: pointer;}
+
+#search_results{
+  position: absolute;
+  top: 0px;
+  background-color:#002e68;
+  z-index: 10;
+}
+.search_results_header{
+  text-transform: capitalize;
+  color: #00b2e9;
+  font-weight: bold;
+  padding: 0px 5px;
+  text-align: center;
+  width: 220px;
+  height: 16px;
+  margin-right: 10px;
+  float: left;
+  background-color: #001248;
+  font-size: 12px;
+}
+.search_results_header span{
+  text-transform: lowercase;
+  float: right;
+  cursor: pointer;
+  font-size: 12px;
+}
+.trending_topics_header {background-color:#dfe0e1; height:22px; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#006db8; font-weight:bold; padding-top:3px; padding-left:3px; } 
+
+.sortable {font-size:12px; font-weight:bold; float:left; width:60px;}
+.sortable_selectable {color:#aeebee; cursor: pointer;}
+.sortable_selectable:hover{text-decoration:underline;}
+.bar {width:2px; padding-right:20px; float:left; font-size: 12px;}
+

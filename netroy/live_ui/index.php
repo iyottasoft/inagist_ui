@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" dir="ltr">
+  <head>
+    <meta name="language" content="en-US" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>In-A-Gist Live!</title>
+    <link rel="stylesheet" type="text/css" href="/netroy/live_ui/css/reset.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/netroy/live_ui/css/main.css?v=1.1" media="screen"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/netroy/live_ui/js/pretty.js"></script>
+    <script type="text/javascript" src="/netroy/live_ui/js/instaket.js"></script>
+    <script type="text/javascript" src="/netroy/live_ui/js/jquery.embedly.min.js"></script>
+    <script type="text/javascript" src="/netroy/live_ui/js/jquery.getParams.js"></script>
+    <script type="text/javascript" src="/netroy/live_ui/js/swfobject.js"></script>
+    <script type="text/javascript" src="/netroy/live_ui/js/FABridge.js"></script>
+    <script type="text/javascript" src="/netroy/live_ui/js/web_socket.js"></script>
+  </head>
+  <body>
+	<header>In-A-Gist Live!</header>
+  <div id="chromebox" class="hidden">
+    <div id="media"></div>
+    <div id="centerbox">
+      <div id="trenddiv" class="ishow">
+        <ul id="trends" class="hidden">
+        </ul>
+      </div>
+      <div id="wrapper" class="ishow">
+        <div id="container">
+          <a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a>
+          <a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a>
+          <a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a>
+          <a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a>
+          <a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a>
+          <a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a><a href='#' target='_blank'></a>
+        </div>
+        <div id="infobox">
+          <div class="boxchrome"></div>
+          <div class="results"></div>
+        </div>
+      </div>
+      <div id="promobar">
+        <a href="http://www.w3.org/html/logo/">
+          <img src="http://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-performance.png" 
+          width="197" height="64" alt="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, and Performance &amp; Integration" 
+          title="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, and Performance &amp; Integration">
+        </a>
+        <div id="notloggedin">
+          <a title="Login with Twitter" href="http://inagist.com/login">
+            <span id="loginBt"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="tweet">Waiting for Data from Inagist's Servers</div>
+  </div>
+  <div id="nochrome" class="hidden">
+	<a href="http://google.com/chrome"><img src="chrome.png" border="0" alt="google chrome" /></a>
+	<a href="http://www.mozilla.com/firefox/beta/"><img src="firefox.png" border="0" alt="mozilla firefox" /></a>
+	<br/><br/>
+	Your Browser doesn't currently support WebSockets... <br/>
+	Try this on <a href="http://google.com/chrome">Chrome</a> 5+, <br/>
+	or on latest <a href="http://www.mozilla.com/firefox/beta/">Firefox 4</a> Beta 8+
+  </div>	
+  <footer>
+    Powered By : <a href="http://inagist.com/">In-a-Gist</a> and <a href="http://twitter.com">Twitter</a><br/>
+    Design Courtesy <a href="http://netroy.in/">Aditya</a>
+  </footer>
+  <script type="text/javascript">
+    USERID = "<?=$_REQUEST['userid']?>";
+  </script>
+  <script type="text/javascript" src="/netroy/live_ui/js/main.js?v=1.5"></script>	
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16053252-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </body>
+</html>

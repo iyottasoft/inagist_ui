@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url><loc>http://nowwhat.in/</loc><priority>1.0</priority><changefreq>always</changefreq></url>
+<url><loc>http://nowwhat.in/airlinesgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/airportsgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/motorgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/bayareagist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/bollygist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/booksgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/cancergist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/cricketgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/designgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/fashiongist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/foodgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/geekgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/envirogist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/hollygist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/indiagist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/indonesiagist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/londongist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/malaygist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/musicgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/nygist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/ngogist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/pharmagist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/testa19</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/picgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/scitechgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/sporegist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/soccergist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/sportsinagist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/hitechgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/travelgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/winegist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/worldnewsgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+<url><loc>http://nowwhat.in/worldbizgist</loc><priority>0.5</priority><changefreq>hourly</changefreq></url>
+</urlset>
+
